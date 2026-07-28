@@ -8,7 +8,7 @@
 import Foundation
 
 struct ItemData {
-    static let data = [
+    static let categories = [
         Category(name: "Tool", items: [
             Item(title: "iPhone 17 Pro", image: "iPhone", price: 58900),
             Item(title: "Mac mini", image: "macmini", price: 40900),

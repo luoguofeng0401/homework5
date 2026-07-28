@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct CategoryList: View {
-    let data = ItemData.data
+    let categories = ItemData.categories
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(data) { category in
+                ForEach(categories) { category in
                     NavigationLink {
                         ItemList(items: category.items)
                     } label: {

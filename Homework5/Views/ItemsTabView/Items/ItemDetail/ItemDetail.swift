@@ -24,5 +24,5 @@ struct ItemDetail: View {
 }
 
 #Preview {
-    ItemDetail(item: ItemData.data[0].items[0])
+    ItemDetail(item: ItemData.categories[0].items[0])
 }

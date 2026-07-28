@@ -26,5 +26,5 @@ struct ItemList: View {
 }
 
 #Preview {
-    ItemList(items: ItemData.data[0].items)
+    ItemList(items: ItemData.categories[0].items)
 }
