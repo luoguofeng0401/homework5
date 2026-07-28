@@ -1,5 +1,5 @@
 //
-//  ItemsTabView.swift
+//  CategoryList.swift
 //  Homework5
 //
 //  Created by Guofeng Luo on 2026/7/28.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ItemsTabView: View {
+struct CategoryList: View {
     let data = ItemData.data
     
     var body: some View {
@@ -28,5 +28,5 @@ struct ItemsTabView: View {
 }
 
 #Preview {
-    ItemsTabView()
+    CategoryList()
 }
