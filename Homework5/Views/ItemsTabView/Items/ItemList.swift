@@ -14,7 +14,9 @@ struct ItemList: View {
         NavigationStack {
             List {
                 ForEach(items) { item in
-                    NavigationLink(destination: ItemDetail(item: item)) {
+                    NavigationLink {
+                        ItemDetail(item: item)
+                    } label: {
                         ItemRow(item: item)
                     }
                 }
